@@ -1,0 +1,5 @@
+src/gateway/*/target/
+node_modules/
+/jmeter.log
+/root.log
+.DS_Store

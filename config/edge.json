@@ -1,0 +1,40 @@
+{
+    "version": "1.0",
+    "orgConfig": {
+        "apiProducts": [
+            {
+                "name": "ImportTokenTestProduct",
+                "displayName": "ImportTokenTestProduct",
+                "description": "Product to test imported access tokens via a test proxy called import-token-test",
+                "apiResources": [ "/" ],
+                "approvalType": "auto",
+                "attributes": [],
+                "environments": [ "test" ],
+                "proxies": [],
+                "quota": "",
+                "quotaInterval": "",
+                "quotaTimeUnit": "",
+                "scopes": []
+            }
+        ],
+        "developers": [
+            {
+                "attributes": [],
+                "email": "ImportTokenDev@gmail.com",
+                "firstName": "ImportToken",
+                "lastName": "Dev",
+                "userName": "ImportTokenDev"
+            }
+        ],
+        "developerApps": {
+            "ImportTokenDev@gmail.com": [
+                {
+                    "name": "ImportTokenTestApp",
+                    "apiProducts": ["ImportTokenTestProduct"],
+                    "callbackUrl": "",
+                    "scopes": []
+                }
+            ]
+        }
+    }
+}
